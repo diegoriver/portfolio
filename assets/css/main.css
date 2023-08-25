@@ -204,6 +204,29 @@ input, select, textarea {
 		text-transform: uppercase;
 		letter-spacing: 0.35em;
 	}
+		.title_ia_app {
+			font-size: 2rem;
+			position: relative;
+			padding-bottom: 10px;
+			padding-top: 40px;
+		}
+	
+		.tititle_ia_apptle span {
+			background: #fff;
+			padding: 0 10px;
+			position: relative;
+			z-index: 1;
+		}
+	
+		.title_ia_app:after {
+			content: "";
+			position: absolute;
+			left: 0;
+			bottom: 0;
+			height: 3px;
+			width: 100%;
+			background: #afd0f2;
+		}
 
 		h2 a, h3 a, h4 a, h5 a, h6 a {
 			color: inherit;
@@ -2706,6 +2729,20 @@ input, select, textarea {
 					.tiles article > a .content > :last-child {
 						margin-bottom: 0;
 					}
+
+				.ia {
+					background: #f2f2f2;
+					padding: 20px;
+					border-radius: 10px;
+				}
+		
+				.apps {
+					background: #e8e8e8;
+					padding: 20px;
+					border-radius: 10px;
+				}
+
+
 
 			.tiles article.style1 > .image:before {
 				background-color: #f2849e;
